@@ -1,0 +1,182 @@
+\documentclass[11pt]{scrartcl}
+\usepackage{color}
+\usepackage{geometry}
+\geometry{a4paper, top=25mm, left=20mm, right=20mm, bottom=40mm, headsep=10mm, footskip=5mm}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+%\usepackage{german}
+\usepackage{soul}
+\usepackage{amsmath,amssymb,amstext}
+\usepackage{graphicx}
+\usepackage[automark]{scrpage2}
+%\usepackage{caption}
+%\usepackage{subfigure}
+%\usepackage{subfig}
+
+\usepackage[ngerman]{babel} 
+\usepackage{xspace}
+\usepackage{hyperref}
+%\RequirePackage[ngerman=ngerman-x-latest]{hyphsubst}
+\newcommand{\Gu}{\glqq{}}		%Gänsefüßchen unten
+\newcommand{\Go}{\grqq\xspace} 
+\pagestyle{scrheadings}
+\pagenumbering{arabic}	        %Gänsefüßchen oben
+ \addtolength{\textheight}{25mm}
+%\title{Sensoren in der Robotik}
+%\author{Sophie v. Schmettow, Mirjam Jöchner}
+%\date{\today{} in Karlsruhe}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+\begin{titlepage}
+
+\begin{center}
+
+
+% Upper part of the page
+\includegraphics[width=0.4\textwidth]{Logo_KIT.png}\\[1cm]    
+
+
+
+\textsc{\Large Zusammenfassung}\\[0.5cm]
+
+
+% Title
+{ \huge \bfseries Sensoren in der Robotik}\\[0.4cm]
+{ \large \bfseries (Robotik III)}
+\bigskip
+
+% Author and supervisor
+Mirjam \textsc{Jöchner}\\
+Sophie \textsc{v. Schmettow}\\
+SoSe 15\\
+
+
+
+
+\vfill
+
+% Bottom of the page
+{\large \today{} in Karlsruhe} 
+
+\end{center}
+
+
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\tableofcontents
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	UTILS
+%----------------------------------------------------------------------------------------
+
+%\begin{figure*}[ht]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
+%\includegraphics[width=\linewidth]{view}
+%\caption{Wide Picture}
+%\label{fig:view}
+%\end{figure*}
+
+
+
+%\begin{equation}
+%\cos^3 \theta =\frac{1}{4}\cos\theta+\frac{3}{4}\cos 3\theta
+%\label{eq:refname2}
+%\end{equation}
+
+
+
+%\begin{enumerate}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
+%\item First item in a list
+%\item Second item in a list
+%\item Third item in a list
+%\end{enumerate}
+
+
+
+%\begin{figure}[ht]\centering
+%\includegraphics[width=\linewidth]{results}
+%\caption{In-text Picture}
+%\label{fig:results}
+%\end{figure}
+
+%Reference to Figure \ref{fig:results}.
+
+
+%\begin{table}[hbt]
+%\caption{Table of Grades}
+%\centering
+%\begin{tabular}{llr}
+%\toprule
+%\multicolumn{2}{c}{Name} \\
+%\cmidrule(r){1-2}
+%First name & Last Name & Grade \\
+%\midrule
+%John & Doe & $7.5$ \\
+%Richard & Miles & $2$ \\
+%\bottomrule
+%\end{tabular}
+%\label{tab:label}
+%\end{table}
+
+
+
+%\begin{description}
+%\item[Word] Definition
+%\item[Concept] Explanation
+%\item[Idea] Text
+%\end{description}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\section*{Disclaimer}
+Dieses Dokument wurde im Rahmen des Master-Studiums
+für das Modul Autonome Robotik erstellt. Es stellt eine 
+Zusammenfassung dar und dient zur Vorbereitung auf die
+mündliche Prüfung. Neben den Materialien der Vorlesung,
+fließen auch weitere Quellen ein, um den behandelten Stoff
+auszuarbeiten. Auf den Verweis von Quellen wird verzichtet,
+da die Erstellung keinerlei wissenschaftlichen Zweck verfolgt
+und nur für den privaten Gebrauch bestimmt ist.
+
+\section{Einleitung} %(1. VL)
+%\input{ch01.tex}
+
+\section{Visuelle Sensoren} %(2. VL)
+%\input{ch02.tex}
+
+\section{3D-Sensoren}
+
+\section{Interne Sensoren}
+
+\section{Taktile Sensoren und KMS}
+
+\section{Externe Sensoren}
+
+\section{Sensormodellierung und Signalverarbeitung}
+
+\section{Grundlagen der Bildverarbeitung}
+
+\section{Merkmalsextraktion}
+
+\section{Umweltmodellierung}
+
+\section{Multisensorfusion}
+
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
